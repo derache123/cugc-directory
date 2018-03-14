@@ -1,0 +1,116 @@
+/* GENERAL HTML ELEMENTS */
+
+body {
+  margin: 0;
+  padding: 0 15%;
+  min-width: 800px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* HEADER */
+
+header h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+nav ul li.current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav ul li:hover {
+  background-color: #eee;
+}
+
+nav ul li:active {
+  background-color: #ddd;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* THE FORM */
+
+.theform {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-column-gap: 15px;
+}
+
+.theform input {
+  margin-bottom: 15px;
+}
+
+.button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 35px;
+}
+
+.theform .left {
+  grid-column: 1 / 3;
+}
+
+.theform .right {
+  grid-column: 3 / 5;
+}
+
+.theform .whole {
+  grid-column: 1 / 5;
+}
+
+/* TABLE */
+
+table {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  width: 10%;
+}
+
+/* REMOVE */
+.remove-button {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* MESSAGE */
+
+.message {
+  color: orange;
+  border: 1px solid orange;
+  padding: 5px;
+  border-radius: 5px;
+}
